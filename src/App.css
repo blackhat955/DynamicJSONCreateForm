@@ -1,0 +1,14 @@
+*{
+   background-color:black; 
+}
+.App {
+  font-family: sans-serif;
+  width:100%;
+  height:auto;
+  /* background:black; */
+  padding-bottom:20px;
+  /* background:black; */
+}
+.select{
+  margin-top:20px;
+}
