@@ -1,4 +1,4 @@
-# Dynamic JASON form
+# Dynamic JSON form
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
