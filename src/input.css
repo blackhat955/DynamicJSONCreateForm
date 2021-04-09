@@ -1,49 +1,77 @@
 input {
-    width:98%;
-    height: 50px;
-    margin-top: 20px;
-    outline: none;
-    color:white;
-    border-radius: 5px;
-    border: 2px solid blue;
-    overflow:hidden;
-  }
-  button {
-    width: 100%;
-    height: 40px;
-    margin-top:80px;
-    margin-bottom: 300px;
-    background: black;
-    color: white;
-    cursor: pointer;
-    border: 2px solid blue;
-  }
-  button:hover {
-    transform: scale(1.1);
-    background: green;
-  }
-  .select {
-    width: 100%;
-    height: 30px;
-    margin-top: 10px;
-    color:white;
-    border: 2px solid blue;
-  }
-  option {
-    color:white;
-    width: 80%;
-    height: 40px;
-  }
-.header{
-    color:white;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 98%;
+  height: 50px;
+  margin-top: 20px;
+  outline: none;
+  color: white;
+  border-radius: 5px;
+  border: 2px solid yellow;
+  overflow: hidden;
+}
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: 60px;
+  margin-top: 80px;
+  margin-bottom: 300px;
+  background: black;
+  color: white;
+  cursor: pointer;
+  border: 2px solid yellow;
+}
+button:hover {
+  background: yellow;
+}
+.select {
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  color: white;
+  border: 2px solid yellow;
+}
+option {
+  color: white;
+  width: 80%;
+  height: 40px;
+}
+.header {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.selectbox {
+  color: yellow;
+}
+.radio {
+  width: 30px;
+  height: 10px;
+  margin-top: 30px;
+  color: yellow;
+  display: inline-block;
 }
 
-.radio{
-    width:30px;
-    height:10px;
-    margin-top:30px;
-    color:blue;
-    display:inline-block;
+.input1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+}
 
+.input11 {
+  margin: auto;
+}
+
+.inputSection {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.input {
+  width: 40%;
+  margin: 10px;
+  min-width: 250px;
+  max-width: 500px;
 }

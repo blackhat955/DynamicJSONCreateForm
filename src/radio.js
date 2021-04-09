@@ -1,11 +1,31 @@
-import React from "react";
+import React, { Fragment } from "react";
 import "./input.css";
 
-const radioButton=({name,placeholder})=>{
-    return(
-     <div className="radio">
-         <input type="radio" value={name} name={placeholder}/>{name}
-     </div>
-    );
-}
+const radioButton = ({ name, placeholder, value, v }) => {
+  return (
+    <div className="radio">
+      {!v ? (
+        <Fragment>
+          <input
+            type="radio"
+            value={value}
+            name={name}
+            placeholder={placeholder}
+          />
+          {value}
+        </Fragment>
+      ) : (
+        <Fragment>
+          <input
+            type="checkbox"
+            value={value}
+            name={name}
+            placeholder={placeholder}
+          />
+          {value}
+        </Fragment>
+      )}
+    </div>
+  );
+};
 export default radioButton;
