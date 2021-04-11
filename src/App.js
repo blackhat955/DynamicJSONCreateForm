@@ -22,6 +22,7 @@ const value = [
         ]
     }
 ];
+
 class App extends React.Component {
     state = {
         selectedOption: null
